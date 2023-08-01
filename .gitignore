@@ -1,0 +1,7 @@
+venv/
+*.ipynb
+__pycache__/
+.vscode/
+venv/Lib/site-packages/torch/lib/dnnl.lib
+venv/Lib/site-packages/torch/lib/torch_cpu.dll
+deploy-mlmodel-env/
