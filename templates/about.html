@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Eutrophication Classifier</title>
+
+  <!-- Quick Start: CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+<body class='bg-dark text-white'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/examples">Example Images</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <div class="container my-4">
+        <h2 class="">What is Lake Eutrophication?</h2>
+        <p>Lake eutrophication is a process that occurs when a surplus of a nutrient is 
+            introduced to a lake, leading to a subsequent algal bloom.
+            This bloom causes the water's oxygen levels to fall drastically and lowers the 
+            pH of the water, leading to the dying off of marine life. Nutrient influxes capable 
+            of causing eutrophication are increasingly caused by human activity. 
+            Fertilizer runoff, sewage, and industrial waste products, among other human byproducts,
+            pollute bodies of water and flood the ecosystem with an overabundance of nutrients. Eutrophication
+            is a serious environmental concern; the habitats it affects could die and be unable to support life.
+        </p>
+        <h2 class="">How Does the Eutrophication Classifier Address This Problem?</h2>
+        <p>My project is designed to help address this problem by 
+            identifying how threatened a given lake is by analyzing an image of its water. 
+            I trained a multiclassification model to be able to 
+            identify a picture of water as hypereutrophic, eutrophic, mesotrophic, or oligotrophic 
+            (oligotrophic being good water quality).
+            The assessment can then be used to take action accordingly. For example, if a lake is classified as
+            mesotrophic, we could improve phosphate-stripping processes at sewage plants nearby or reduce fertilizer input.  
+
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="text-sm text-secondary">Sinha Mahira Sultana's Lake Image Classification dataset from Kaggle 
+            was used to train this model.
+        </p>
+    </div>
+  </body>
+</html>
